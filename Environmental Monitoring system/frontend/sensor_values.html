@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Values</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html"><h1>Environment monitoring system</h1></a>
+
+        <ul>
+            <li><a href="rainfall_prediction.html">Rainfall prediction</a></li>
+            <li><a href="sensor_values.html">IOT Environment sensors</a></li>
+        </ul>
+
+    </nav>
+
+    <table id="my-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>MQ135 Value</th>
+            <th>LM35 Temperature</th>
+            <th>DHT11 Temperature</th>
+            <th>DHT11 Humidity</th>
+            <th>Sound Value</th>
+            <th>Rain value</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="sensor_values.js"></script>
+</body>
+</html>
